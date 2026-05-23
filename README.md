@@ -137,7 +137,7 @@ MARKDOWN
 
 Initial raw dataset before cleaning and transformation.
 
-![Messy Data](project_images1/messy _data.png.png)
+![Messy Data](project_images1/messy_data.png.png)
 
 ---
 
