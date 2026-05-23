@@ -171,7 +171,7 @@ Summary statistics used to understand the dataset distribution.
 
 Advanced statistical analysis for deeper data insights.
 
-![Advanced Descriptive Statistics](project_images2/advanced_descriptive_statistics.png.png)
+![Advanced Descriptive Statistics](project_images2/advanced_descriptive_statistics_png.png)
 
 ---
 
