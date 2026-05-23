@@ -137,7 +137,7 @@ MARKDOWN
 
 Initial raw dataset before cleaning and transformation.
 
-![Messy Data](Project Images/messy_data.png)
+![Messy Data](Project Images/Messy Data.png)
 
 ---
 
@@ -145,7 +145,7 @@ Initial raw dataset before cleaning and transformation.
 
 Dataset after cleaning and preparation using Power Query.
 
-![Cleaned Data](Project Images/cleaned_data.png)
+![Cleaned Data](Project Images/Cleaned Data.png)
 
 ---
 
@@ -153,7 +153,7 @@ Dataset after cleaning and preparation using Power Query.
 
 Power Query was used to clean, transform, and standardize the dataset.
 
-![Power Query Steps](Project Images/power_query_steps.png)
+![Power Query Steps](Project Images/Power Query Steps.png)
 
 ---
 
@@ -163,7 +163,7 @@ Power Query was used to clean, transform, and standardize the dataset.
 
 Summary statistics used to understand the dataset distribution.
 
-![Basic Descriptive Statistics](Project Images/basic_descriptive_statistics.png)
+![Basic Descriptive Statistics](Project Images/Basic Descriptive Statistics.png)
 
 ---
 
@@ -171,7 +171,7 @@ Summary statistics used to understand the dataset distribution.
 
 Advanced statistical analysis for deeper data insights.
 
-![Advanced Descriptive Statistics](Project Images/advanced_descriptive_statistics.png)
+![Advanced Descriptive Statistics](Project Images/advanced Descriptive Statistics.png)
 
 ---
 
@@ -179,7 +179,7 @@ Advanced statistical analysis for deeper data insights.
 
 Pivot tables used to summarize and analyze trends.
 
-![Pivot Tables](Project Images/pivot_tables.png)
+![Pivot Tables](Project Images/Pivot Tables.png)
 
 ---
 
@@ -187,7 +187,7 @@ Pivot tables used to summarize and analyze trends.
 
 Quartile calculations used to identify data distribution and outliers.
 
-![Quartile Analysis](Project Images/quartile_analysis.png)
+![Quartile Analysis](Project Images/Quartile Analysis.png)
 
 Skills Demonstrated
 •	Data Cleaning
