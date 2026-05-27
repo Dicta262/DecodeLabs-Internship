@@ -97,6 +97,162 @@ Challenges Faced
 Outcome
 The exploratory data analysis provided meaningful insights and improved understanding of the dataset through statistical summaries and trend analysis.
 
+
+# Project 3: SQL Retail Data Analysis
+
+## Project Overview
+
+This project focused on analyzing the Online Retail Dataset using Microsoft SQL Server and SQL Server Management Studio (SSMS). The objective of the project was to apply SQL querying, data cleaning, filtering, aggregation, and reporting techniques to extract meaningful business insights from retail transaction data.
+
+---
+
+## Tools Used
+
+- Microsoft SQL Server
+- SQL Server Management Studio (SSMS)
+- SQL
+
+---
+
+## Database Setup and Data Cleaning
+
+The dataset was successfully imported into SQL Server from a CSV file. Data cleaning and transformation processes were carried out to improve data quality and prepare the dataset for analysis.
+
+The following cleaning tasks were performed:
+
+- Replaced blank values in the Coupon Code column with “No Coupon”
+- Created additional columns for:
+  - Order_Year
+  - Order_Month
+- Extracted date values using SQL date functions
+- Verified and adjusted data types where necessary
+
+---
+
+## SQL Skills and Techniques Applied
+
+The project demonstrated practical use of SQL concepts and analytical functions, including:
+
+### SQL Clauses and Operations
+- SELECT
+- WHERE
+- ORDER BY
+- GROUP BY
+- HAVING
+- UPDATE
+
+### Aggregate Functions
+- SUM()
+- AVG()
+- COUNT()
+
+### Additional SQL Techniques
+- Date extraction functions
+- Conditional filtering
+- Data aggregation
+- Business reporting queries
+
+---
+
+## Key Findings and Business Insights
+
+### Overall Metrics Performance
+
+| Metric | Value |
+|---|---|
+| Total Orders | 1,200 |
+| Total Revenue | 1,264,761.96 |
+| Average Order Value | 1,053.97 |
+| Average Quantity Ordered | 2 Items |
+| Cancelled Orders | 251 |
+
+---
+
+## Customer and Payment Insights
+
+### Most Used Payment Method
+- Online Payments (259 transactions)
+
+### Highest Revenue Payment Method
+- Credit Card — 263,847.63
+
+### Top Referral Source
+- Instagram (260 referrals)
+
+### Highest Revenue Referral Source
+- Instagram — 275,285.45
+
+---
+
+## Product Performance
+
+### Top 3 Products by Revenue
+
+| Product | Revenue |
+|---|---|
+| Chair | 195,620.11 |
+| Printer | 195,612.61 |
+| Laptop | 192,126.56 |
+
+Products with sales greater than 2000 included:
+- Chair
+- Desk
+- Laptop
+- Monitor
+- Phone
+- Printer
+- Tablet
+
+### Highest Individual Total Price
+- Product: Tablet
+- Coupon Code: SAVE10
+- Total Price: 3,456.40
+
+### Lowest Recorded Price
+- Product: Phone
+- Referral Source: Email
+- Total Price: 11.39
+
+---
+
+## Revenue Analysis
+
+### Revenue by Payment Method
+
+| Payment Method | Total Revenue |
+|---|---|
+| Credit Card | 263,847.63 |
+| Online | 262,442.94 |
+| Cash | 259,786.29 |
+| Gift Card | 246,323.92 |
+| Debit Card | 232,361.18 |
+
+---
+
+### Revenue by Referral Source
+
+| Referral Source | Total Revenue |
+|---|---|
+| Instagram | 275,285.45 |
+| Email | 261,808.55 |
+| Google | 250,441.48 |
+| Facebook | 250,410.90 |
+| Referral | 226,815.58 |
+
+---
+## Conclusion
+
+This project demonstrated practical SQL and data analysis skills through the use of a real-world retail dataset. SQL queries were effectively used to clean, organize, analyze, and summarize transactional data into actionable business insights.
+
+The analysis provided visibility into:
+- Customer behavior
+- Product performance
+- Payment trends
+- Revenue distribution
+
+Overall, the project strengthened foundational SQL skills and showcased the ability to transform raw transactional data into meaningful business intelligence suitable for reporting and decision-making.
+
+
 MARKDOWN
 Repository Structure
 
@@ -114,6 +270,12 @@ Excel-Data-Projects/
 │ ├── descriptive_statistics.xlsx
 │ ├── quartile_analysis.xlsx
 │ └── README.md
+│
+├── SQL-Analysis-Project/
+│   ├── online_retail_dataset.xlsx
+│   ├── sql_queries.sql
+│   ├── sql_analysis_report.docx
+│   └── README.md
 
 Excel-Data-Projects/
 │
@@ -128,7 +290,25 @@ Excel-Data-Projects/
 │
 ├── Data-Cleaning-Project/
 ├── EDA-Project/
-└── README.md
+
+SQL-Project/
+│
+├── images/
+│ ├── creating_database.png
+│ ├── table_created.png
+│ ├── data_cleaning.png
+│ ├── removing_blank_rows.png
+│ ├── year_month_extraction.png
+│ ├── filtering_records.png
+│ └── sorting_records.png
+│ ├── aggregate_function1.png
+│ ├── aggregate_function2.png
+│ ├── group_by.png
+│ ├── having_clause.png
+│ └── top_3_products.png
+│
+├──  SQL-Analysis-Project/
+
 
 MARKDOWN
 # Project Screenshots
@@ -189,6 +369,77 @@ Quartile calculations used to identify data distribution and outliers.
 
 ![Quartile Analysis](project_images2/quartile_analysis.png.png)
 
+---
+
+## SQL Project Screenshots
+
+### Creating Database
+
+![Creating Database](images/creating_database.png)
+
+---
+
+### Table Created
+
+![Table Created](project_images3/table_created.png)
+
+---
+
+### Data Cleaning SQL
+
+![Data Cleaning SQL](project_images3/data_cleaning_sql.png)
+
+---
+
+### Removing Blank Rows
+
+![Removing Blank Rows](project_images3/removing_blank_rows.png)
+
+---
+
+### Year and Month Extraction
+
+![Year Month Extraction](project_images3/year_month_extraction.png)
+
+---
+
+### Filtering Records
+
+![Filtering Records](project_images3/filtering_records.png)
+
+---
+
+### Sorting Records
+
+![Sorting Records](project_images3/sorting_records.png)
+
+---
+
+### Aggregate Functions
+
+![Aggregate Function 1](project_images3/aggregate_function1.png)
+
+![Aggregate Function 2](project_images3/aggregate_function2.png)
+
+---
+
+### GROUP BY Clause
+
+![GROUP BY](project_images3/group_by.png)
+
+---
+
+### HAVING Clause
+
+![HAVING Clause](project_images3/having_clause.png)
+
+---
+
+### Top 3 Products Query
+
+![Top 3 Products](project_images3/top_3_products.png)
+
+
 Skills Demonstrated
 •	Data Cleaning
 •	Data Preparation
@@ -199,10 +450,24 @@ Skills Demonstrated
 •	Quartile Calculations
 •	Data Visualization
 •	Problem Solving
+•	SQL Query Writing
+•	Data Extraction
+•	Data Filtering
+•	Data Aggregation
+•	Business Data Analysis
+•	Database Management
+•	Reporting and Insights Generation
 
-Author
+## Author's Note
+
+I am passionate about using data to solve problems, uncover trends, and support better decision-making. Through these projects, I developed practical experience in data cleaning, exploratory data analysis, and SQL-based business analysis using tools such as Microsoft Excel, Power Query, SQL Server, and SQL Server Management Studio (SSMS).
+
+These projects strengthened my ability to transform raw and unstructured data into organized, meaningful, and actionable insights through data preparation, statistical analysis, visualization, and SQL querying techniques.
+
+### Author
 
 Benedicta Izegbue
+
 Aspiring Data Analyst skilled in SQL, Excel, and Power BI with a strong interest in transforming raw data into meaningful business insights.
 
 
