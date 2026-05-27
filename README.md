@@ -1,4 +1,4 @@
-## Excel Data Projects Portfolio
+## INTERSHIP PROJECTS PORTFOLIO
 
 ## Overview
 This repository contains two data analysis projects completed using Microsoft Excel. The projects focus on data cleaning, preparation, transformation, and exploratory data analysis (EDA) to generate meaningful insights from raw datasets.
