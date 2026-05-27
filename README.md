@@ -98,65 +98,58 @@ Outcome
 The exploratory data analysis provided meaningful insights and improved understanding of the dataset through statistical summaries and trend analysis.
 
 
-# Project 3: SQL Retail Data Analysis
+Project 3: SQL Retail Data Analysis
 
-## Project Overview
+Project Overview
 
 This project focused on analyzing the Online Retail Dataset using Microsoft SQL Server and SQL Server Management Studio (SSMS). The objective of the project was to apply SQL querying, data cleaning, filtering, aggregation, and reporting techniques to extract meaningful business insights from retail transaction data.
 
----
+Tools Used
+•	Microsoft SQL Server
+•	SQL Server Management Studio
+•	SQL
 
-## Tools Used
-
-- Microsoft SQL Server
-- SQL Server Management Studio (SSMS)
-- SQL
-
----
-
-## Database Setup and Data Cleaning
+Database Setup and Data Cleaning
 
 The dataset was successfully imported into SQL Server from a CSV file. Data cleaning and transformation processes were carried out to improve data quality and prepare the dataset for analysis.
 
 The following cleaning tasks were performed:
 
-- Replaced blank values in the Coupon Code column with “No Coupon”
-- Created additional columns for:
-  - Order_Year
-  - Order_Month
-- Extracted date values using SQL date functions
-- Verified and adjusted data types where necessary
+Replaced blank values in the Coupon Code column with “No Coupon”
+Created additional columns for:
+•	Order_Year
+•	Order_Month
+Extracted date values using SQL date functions
+ Verified and adjusted data types where necessary
 
----
 
-## SQL Skills and Techniques Applied
+SQL Skills and Techniques Applied
 
 The project demonstrated practical use of SQL concepts and analytical functions, including:
 
-### SQL Clauses and Operations
-- SELECT
-- WHERE
-- ORDER BY
-- GROUP BY
-- HAVING
-- UPDATE
+SQL Clauses and Operations
+•	SELECT
+•	WHERE
+•	ORDER BY
+•	GROUP BY
+•	HAVING
+•	UPDATE
 
-### Aggregate Functions
-- SUM()
-- AVG()
-- COUNT()
+Aggregate Functions
+•	SUM()
+•	AVG()
+•	COUNT()
 
-### Additional SQL Techniques
-- Date extraction functions
-- Conditional filtering
-- Data aggregation
-- Business reporting queries
+Additional SQL Techniques
+•	Date extraction functions
+•	Conditional filtering
+•	Data aggregation
+•	Business reporting queries
 
----
 
-## Key Findings and Business Insights
+Key Findings and Business Insights
 
-### Overall Metrics Performance
+Overall Metrics Performance
 
 | Metric | Value |
 |---|---|
@@ -166,27 +159,25 @@ The project demonstrated practical use of SQL concepts and analytical functions,
 | Average Quantity Ordered | 2 Items |
 | Cancelled Orders | 251 |
 
----
 
-## Customer and Payment Insights
+Customer and Payment Insights
 
-### Most Used Payment Method
-- Online Payments (259 transactions)
+Most Used Payment Method
+•	Online Payments (259 transactions)
 
-### Highest Revenue Payment Method
-- Credit Card — 263,847.63
+Highest Revenue Payment Method
+•	Credit Card — 263,847.63
 
-### Top Referral Source
-- Instagram (260 referrals)
+Top Referral Source
+•	Instagram (260 referrals)
 
-### Highest Revenue Referral Source
-- Instagram — 275,285.45
+Highest Revenue Referral Source
+•	Instagram — 275,285.45
 
----
 
-## Product Performance
+Product Performance
 
-### Top 3 Products by Revenue
+Top 3 Products by Revenue
 
 | Product | Revenue |
 |---|---|
@@ -195,29 +186,28 @@ The project demonstrated practical use of SQL concepts and analytical functions,
 | Laptop | 192,126.56 |
 
 Products with sales greater than 2000 included:
-- Chair
-- Desk
-- Laptop
-- Monitor
-- Phone
-- Printer
-- Tablet
+•	Chair
+•	Desk
+•	Laptop
+•	Monitor
+•	Phone
+•	Printer
+•	Tablet
 
-### Highest Individual Total Price
-- Product: Tablet
-- Coupon Code: SAVE10
-- Total Price: 3,456.40
+Highest Individual Total Price
+•	Product: Tablet
+•	Coupon Code: SAVE10
+•	Total Price: 3,456.40
 
-### Lowest Recorded Price
-- Product: Phone
-- Referral Source: Email
-- Total Price: 11.39
+Lowest Recorded Price
+•	Product: Phone
+•	Referral Source: Email
+•	Total Price: 11.39
 
----
 
-## Revenue Analysis
+Revenue Analysis
 
-### Revenue by Payment Method
+Revenue by Payment Method
 
 | Payment Method | Total Revenue |
 |---|---|
@@ -227,9 +217,8 @@ Products with sales greater than 2000 included:
 | Gift Card | 246,323.92 |
 | Debit Card | 232,361.18 |
 
----
 
-### Revenue by Referral Source
+Revenue by Referral Source
 
 | Referral Source | Total Revenue |
 |---|---|
@@ -239,18 +228,20 @@ Products with sales greater than 2000 included:
 | Facebook | 250,410.90 |
 | Referral | 226,815.58 |
 
----
-## Conclusion
+Conclusion
 
 This project demonstrated practical SQL and data analysis skills through the use of a real-world retail dataset. SQL queries were effectively used to clean, organize, analyze, and summarize transactional data into actionable business insights.
 
 The analysis provided visibility into:
-- Customer behavior
-- Product performance
-- Payment trends
-- Revenue distribution
+•	Customer behavior
+•	Product performance
+•	Payment trends
+•	Revenue distribution
 
 Overall, the project strengthened foundational SQL skills and showcased the ability to transform raw transactional data into meaningful business intelligence suitable for reporting and decision-making.
+
+
+
 
 
 MARKDOWN
