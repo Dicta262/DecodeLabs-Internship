@@ -1,9 +1,9 @@
-Excel Data Projects Portfolio
+## Excel Data Projects Portfolio
 
-Overview
+## Overview
 This repository contains two data analysis projects completed using Microsoft Excel. The projects focus on data cleaning, preparation, transformation, and exploratory data analysis (EDA) to generate meaningful insights from raw datasets.
 
-Project 1: Data Cleaning and Preparation
+## Project 1: Data Cleaning and Preparation
 
 Project Description
 The purpose of this project was to clean and prepare raw business data for analysis using Microsoft Excel and Power Query. Several data quality issues such as duplicates, missing values, inconsistent formatting, and incorrect data types were identified and corrected.
@@ -49,7 +49,7 @@ The raw dataset was successfully transformed into a clean, organized, and analys
 
 
 
-Project 2: Exploratory Data Analysis (EDA)
+## Project 2: Exploratory Data Analysis (EDA)
 
 Project Description
 This project focuses on exploring and analyzing data using Microsoft Excel to identify trends, patterns, relationships, and business insights.
@@ -98,7 +98,7 @@ Outcome
 The exploratory data analysis provided meaningful insights and improved understanding of the dataset through statistical summaries and trend analysis.
 
 
-Project 3: SQL Retail Data Analysis
+## Project 3: SQL Retail Data Analysis
 
 Project Overview
 
@@ -366,7 +366,7 @@ Quartile calculations used to identify data distribution and outliers.
 
 ### Creating Database
 
-![Creating Database](images/creating_database.png)
+![Creating Database](project_images3/creating_database.png)
 
 ---
 
