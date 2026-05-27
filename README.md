@@ -362,7 +362,7 @@ Quartile calculations used to identify data distribution and outliers.
 
 ---
 
-# SQL Project Screenshots
+# SQL Analysis
 
 ## Creating Database
 
