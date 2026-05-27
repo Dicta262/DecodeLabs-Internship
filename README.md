@@ -362,51 +362,51 @@ Quartile calculations used to identify data distribution and outliers.
 
 ---
 
-## SQL Project Screenshots
+# SQL Project Screenshots
 
-### Creating Database
+## Creating Database
 
 ![Creating Database](project_images3/creating_database.png)
 
 ---
 
-### Table Created
+## Table Created
 
 ![Table Created](project_images3/table_created.png)
 
 ---
 
-### Data Cleaning SQL
+## Data Cleaning SQL
 
 ![Data Cleaning SQL](project_images3/data_cleaning_sql.png)
 
 ---
 
-### Removing Blank Rows
+## Removing Blank Rows
 
 ![Removing Blank Rows](project_images3/removing_blank_rows.png)
 
 ---
 
-### Year and Month Extraction
+## Year and Month Extraction
 
 ![Year Month Extraction](project_images3/year_month_extraction.png)
 
 ---
 
-### Filtering Records
+## Filtering Records
 
 ![Filtering Records](project_images3/filtering_records.png)
 
 ---
 
-### Sorting Records
+## Sorting Records
 
 ![Sorting Records](project_images3/sorting_records.png)
 
 ---
 
-### Aggregate Functions
+## Aggregate Functions
 
 ![Aggregate Function 1](project_images3/aggregate_function1.png)
 
@@ -414,19 +414,19 @@ Quartile calculations used to identify data distribution and outliers.
 
 ---
 
-### GROUP BY Clause
+## GROUP BY Clause
 
 ![GROUP BY](project_images3/group_by.png)
 
 ---
 
-### HAVING Clause
+## HAVING Clause
 
 ![HAVING Clause](project_images3/having_clause.png)
 
 ---
 
-### Top 3 Products Query
+## Top 3 Products Query
 
 ![Top 3 Products](project_images3/top_3_products.png)
 
